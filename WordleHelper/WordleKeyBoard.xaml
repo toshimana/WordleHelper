@@ -1,0 +1,63 @@
+﻿<UserControl xmlns:WordleHelper="clr-namespace:WordleHelper"  x:Class="WordleHelper.WordleKeyBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Q"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="W"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Text="E"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Text="R"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="2" Text="T"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="10" Grid.ColumnSpan="2" Text="Y"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="12" Grid.ColumnSpan="2" Text="U"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="14" Grid.ColumnSpan="2" Text="I"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="16" Grid.ColumnSpan="2" Text="O"/>
+        <WordleHelper:WordleKey Grid.Row="0" Grid.Column="18" Grid.ColumnSpan="2" Text="P"/>
+
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="A"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Text="S"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" Text="D"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="7" Grid.ColumnSpan="2" Text="F"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="9" Grid.ColumnSpan="2" Text="G"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="11" Grid.ColumnSpan="2" Text="H"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="13" Grid.ColumnSpan="2" Text="J"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="15" Grid.ColumnSpan="2" Text="K"/>
+        <WordleHelper:WordleKey Grid.Row="1" Grid.Column="17" Grid.ColumnSpan="2" Text="L"/>
+
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Text="Z"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="2" Text="X"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="7" Grid.ColumnSpan="2" Text="C"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="9" Grid.ColumnSpan="2" Text="V"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="11" Grid.ColumnSpan="2" Text="B"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="13" Grid.ColumnSpan="2" Text="N"/>
+        <WordleHelper:WordleKey Grid.Row="2" Grid.Column="15" Grid.ColumnSpan="2" Text="M"/>
+    </Grid>
+</UserControl>

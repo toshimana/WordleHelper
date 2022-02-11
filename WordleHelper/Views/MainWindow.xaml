@@ -5,7 +5,12 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525" >
     <Grid>
-        <WordleHelper:WordleKeyBoard />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WordleHelper:HintKeyBoard Grid.Row="0"/>
+        <WordleHelper:WordleKeyBoard Grid.Row="1"/>
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
     </Grid>
 </Window>
